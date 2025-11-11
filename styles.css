@@ -2,6 +2,8 @@
 body {
     margin: 0;
     font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 18px;
 }
 
 .container {
@@ -9,3 +11,180 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+header{
+    background-color: white;
+    font-size: 18px;
+    margin: 0.1px;
+    
+}
+
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+ul{
+    list-style: none;
+}
+
+a{
+    
+    text-decoration: none;
+    
+}
+nav ul {
+    display: flex;
+    gap: 20px;
+    
+}
+
+.overview-hero .container {
+    display: flex;
+    gap: 20px;
+}
+.overview-hero {
+    background-color: #E2E8F0;
+    margin: 5px;
+}
+.overview-hero img {
+    width: 100%;
+    margin: 1px;
+   
+}
+
+.learn-about h2 {
+    font-size: 24px;
+    color: #48BB78;
+   
+    
+}
+.learn-about h3{
+    color: #48BB78;
+    font-size: 21px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+.card img{
+    height: 130px;
+    width: 100%;
+    margin: 1px;
+   
+}
+.card{
+    border-radius: 5px;
+    border: 2px solid #E2E8F0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    width: 320px;
+    margin: 10px ;
+}
+
+.testing{
+    background-color: #4A5568;
+    color: white;
+    margin: 2px;
+    
+}
+
+.testing .btn {
+    background-color: #48BB78;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none; 
+    padding: 5px;
+}
+.testing .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.testing p {
+  width: 850px;
+}
+
+.stories{
+    margin: 3px;
+}
+
+.stories h2 {
+    color: #5A67D8;
+}
+.stories a {
+    color: #5A67D8;
+    text-decoration: none;
+}
+.stories article {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+.stories h3 {
+    font-size: 18px;
+}
+.stories img {
+    border-radius: 70%;
+    width: 100%;
+    height: 200px;
+    margin: 3px;
+}
+.newsletter {
+    text-align: center;
+    padding: 40px;
+    background-color: #48BB78;
+    color: white;
+    margin: 0.1px;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.newsletter .btn {
+    background-color: #5A67D8;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+
+nav a {
+    color: #6b7280;
+}
+nav a:hover {
+    color: #5A67D8;
+}
+footer{
+    background-color: #4A5568;
+    color: white;
+    padding: 20px;
+    margin: 0.1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
